@@ -61,3 +61,21 @@ body {
 .controls {
     margin-top: 20px;
 }
+
+
+//JAVASCRIPT
+
+let ball = document.getElementById('ball');
+let animation;
+
+function startAnimation() {
+    ball.style.animation = 'moveBall 5s linear infinite';
+}
+
+function resumeAnimation() {
+    ball.style.animationPlayState = 'running';
+}
+
+function stopAnimation() {	
+    ball.style.animationPlayState = 'paused';
+}
