@@ -1,6 +1,7 @@
 HTML EXPLANATION :
 
 o	<head>: Contains meta information and links to the CSS file.
+
 o	<body>: Contains the main content, including:
 o	A div with the class maze that represents the maze.
 o	A div with the class ball and id ball that represents the ball.
